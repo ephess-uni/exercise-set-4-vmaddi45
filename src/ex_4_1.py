@@ -18,9 +18,7 @@ def num_shutdowns(logfile):
     Your docstring here.  Replace the pass keyword below with your implementation.
     """
     shutdown_events = get_shutdown_events(logfile)
-    num_shutdowns = len(shutdown_events) // 2
-
-    return num_shutdowns
+    return len(shutdown_events) // 2
 
 # >>>> The code below will call your function and print the results
 if __name__ == "__main__":
